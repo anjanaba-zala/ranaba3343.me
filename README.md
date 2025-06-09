@@ -21,3 +21,4 @@ Hit CTRL-C to stop the server
 http-server stopped.
 "Trigger workflow" 
 "Update to force redeploy" 
+"Rebuild gh-pages" 
