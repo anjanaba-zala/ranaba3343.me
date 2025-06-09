@@ -30,8 +30,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build Angular app
-        run: npm run build -- --configuration production --base-href=/
+      - - name: Build Angular app
+  run: npm run build -- --configuration production --base-href=/ranaba3343.me/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
