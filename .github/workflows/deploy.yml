@@ -28,4 +28,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist/anjanaba-portfolio # Adjust based on your dist folder name
+          publish_dir: ./dist/anjanaba-portfolio/browser # Adjust based on your dist folder name
